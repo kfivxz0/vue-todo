@@ -50,7 +50,7 @@ function deleteItem(id) {
     <h1>Simple to-do list</h1>
     <!-- 자바스크립트 사용시 {{  }} 사용 -->
     <div class="todo_count">
-      완료: {{ isComplete }} / 할 일: {{ totalItems }}
+      완료된 할 일: {{ isComplete }} / 할 일: {{ totalItems }}
     </div>
     <div class="todo_add">
       <!-- v-on: 이벤트 연결 디렉티브 -->
