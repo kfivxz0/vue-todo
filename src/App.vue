@@ -42,6 +42,10 @@ function deleteItem(id) {
   data.items.splice(idx, 1);
   // data.items.filter((item) => item.id !== id);
 }
+function test() {
+  console.log('11');
+}
+test();
 </script>
 
 <template>
